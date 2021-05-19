@@ -1,0 +1,382 @@
+[
+ {
+   "Event ID": "CL0001",
+   "Area": "Page views",
+   "Message": "Page opened: {alObjectName}"
+ },
+ {
+   "Event ID": "AL0000CTV",
+   "Area": "Email",
+   "Message": "Email sent successfully"
+ },
+ {
+   "Event ID": "AL0000CTE",
+   "Area": "Field monitoring",
+   "Message": "Sensitive field value has changed: {alfieldCaption} ({alFieldNumber}) in table {altableCaption} ({alTableNumber})"
+ },
+ {
+   "Event ID": "AL0000CTP",
+   "Area": "Email",
+   "Message": "Failed to send email"
+ },
+ {
+   "Event ID": "AL0000DD3",
+   "Area": "Field monitoring",
+   "Message": "Sensitive field monitor status has changed to {almonitorStatus}"
+ },
+ {
+   "Event ID": "AL0000EMW",
+   "Area": "Field monitoring",
+   "Message": "Sensitive field added to or removed from monitor: {alfieldCaption} ({alFieldNumber}) in table {alTableCaption} ({alTableNumber})"
+ },
+ {
+   "Event ID": "AL0000E2A",
+   "Area": "Permissions",
+   "Message": "User-defined permission set added: {alPermissionSetId}"
+ },
+ {
+   "Event ID": "AL0000E2B",
+   "Area": "Permissions",
+   "Message": "User-defined permission set removed: {alPermissionSetId}"
+ },
+ {
+   "Event ID": "AL0000E28",
+   "Area": "Permissions",
+   "Message": "Permission set link added: {alSourcePermissionSetId} -> {alLinkedPermissionSetId}"
+ },
+ {
+   "Event ID": "AL0000E29",
+   "Area": "Permissions",
+   "Message": "Permission set link removed: {alSourcePermissionSetId} -> {alLinkedPermissionSetId}"
+ },
+ {
+   "Event ID": "AL0000E2C",
+   "Area": "Permissions",
+   "Message": "Permission set assigned to user: {alPermissionSetId}"
+ },
+ {
+   "Event ID": "AL0000E2D",
+   "Area": "Permissions",
+   "Message": "Permission set removed from user: {alPermissionSetId}"
+ },
+ {
+   "Event ID": "AL0000E2E",
+   "Area": "Permissions",
+   "Message": "Permission set assigned to user group: {alPermissionSetId}"
+ },
+ {
+   "Event ID": "AL0000E2F",
+   "Area": "Permissions",
+   "Message": "Permission set removed from user group: {alPermissionSetId}"
+ },
+ {
+   "Event ID": "AL0000D3L",
+   "Area": "Retention Policy",
+   "Message": "Retention Policy Log Entry Logged: {alMessageType}"
+ },
+ {
+   "Event ID": "AL0000D6H",
+   "Area": "Retention Policy",
+   "Message": "Records Deleted Using Retention Policy: Deleted {alRecordsDeleted} records from Table {alTableNo}, {alTableName}"
+ },
+ {
+   "Event ID": "AL0000D6I",
+   "Area": "Retention Policy",
+   "Message": "First retention policy enabled on: {alCompanyName}"
+ },
+ {
+   "Event ID": "AL0000D6J",
+   "Area": "Retention Policy",
+   "Message": "Last retention policy disabled on: {alCompanyName}"
+ },
+ {
+   "Event ID": "AL0000E24",
+   "Area": "Job Queue Lifecycle",
+   "Message": "Job queue entry enqueued: {alJobQueueId}"
+ },
+ {
+   "Event ID": "AL0000E25",
+   "Area": "Job Queue Lifecycle",
+   "Message": "Job queue entry started: {alJobQueueId}"
+ },
+ {
+   "Event ID": "AL0000E26",
+   "Area": "Job Queue Lifecycle",
+   "Message": "Job queue entry finished: {alJobQueueId}"
+ },
+ {
+   "Event ID": "AL0000E3F",
+   "Area": "Configuration Package",
+   "Message": "Configuration package export started: {alPackageCode}"
+ },
+ {
+   "Event ID": "AL0000E3G",
+   "Area": "Configuration Package",
+   "Message": "Configuration package exported successfully: {alPackageCode}"
+ },
+ {
+   "Event ID": "AL0000E3H",
+   "Area": "Configuration Package",
+   "Message": "Configuration package import started: {alPackageCode}"
+ },
+ {
+   "Event ID": "AL0000E3I",
+   "Area": "Configuration Package",
+   "Message": "Configuration package imported successfully: {alPackageCode}"
+ },
+ {
+   "Event ID": "AL0000E3N",
+   "Area": "Configuration Package",
+   "Message": "Configuration package apply started: {alPackageCode}"
+ },
+ {
+   "Event ID": "AL0000E3O",
+   "Area": "Configuration Package",
+   "Message": "Configuration package applied successfully: {alPackageCode}"
+ },
+ {
+   "Event ID": "AL0000E3P",
+   "Area": "Configuration Package",
+   "Message": "Configuration package deleted successfully: {alPackageCode}"
+ },
+ {
+   "Event ID": "LC0001",
+   "Area": "Company Lifecycle",
+   "Message": "Company created: {companyName}"
+ },
+ {
+   "Event ID": "LC0002",
+   "Area": "Company Lifecycle",
+   "Message": "Company creation canceled: {companyName}"
+ },
+ {
+   "Event ID": "LC0003",
+   "Area": "Company Lifecycle",
+   "Message": "Company creation failed: {companyName}"
+ },
+ {
+   "Event ID": "LC0004",
+   "Area": "Company Lifecycle",
+   "Message": "Company copied: {companyNameSource} to {companyNameDestination}"
+ },
+ {
+   "Event ID": "LC0005",
+   "Area": "Company Lifecycle",
+   "Message": "Company copied canceled: {companyNameSource} to {companyNameDestination}"
+ },
+ {
+   "Event ID": "LC0006",
+   "Area": "Company Lifecycle",
+   "Message": "Company copy failed: {companyNameSource} to {companyNameDestination}"
+ },
+ {
+   "Event ID": "LC0007",
+   "Area": "Company Lifecycle",
+   "Message": "Company deleted: {companyName}"
+ },
+ {
+   "Event ID": "LC0008",
+   "Area": "Company Lifecycle",
+   "Message": "Company deletion canceled: {companyName}"
+ },
+ {
+   "Event ID": "LC0009",
+   "Area": "Company Lifecycle",
+   "Message": "Company deletion failed: {companyName}"
+ },
+ {
+   "Event ID": "LC0010",
+   "Area": "Extension Lifecycle",
+   "Message": "Extension installed successfully: {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId})"
+ },
+ {
+   "Event ID": "LC0011",
+   "Area": "Extension Lifecycle",
+   "Message": "Extension failed to install: {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId})"
+ },
+ {
+   "Event ID": "LC0012",
+   "Area": "Extension Lifecycle",
+   "Message": "Extension synchronized successfully: {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId}"
+ },
+ {
+   "Event ID": "LC0013",
+   "Area": "Extension Lifecycle",
+   "Message": "Extension failed to synchronize: {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId})"
+ },
+ {
+   "Event ID": "LC0014",
+   "Area": "Extension Lifecycle",
+   "Message": "Extension published successfully: {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId})"
+ },
+ {
+   "Event ID": "LC0015",
+   "Area": "Extension Lifecycle",
+   "Message": "Extension failed to publish: {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId})"
+ },
+ {
+   "Event ID": "LC0016",
+   "Area": "Extension Lifecycle",
+   "Message": "Extension un-installed successfully: {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId})"
+ },
+ {
+   "Event ID": "LC0017",
+   "Area": "Extension Lifecycle",
+   "Message": "Extension failed to un-install: {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId})"
+ },
+ {
+   "Event ID": "LC0018",
+   "Area": "Extension Lifecycle",
+   "Message": "Extension unpublished successfully: {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId})"
+ },
+ {
+   "Event ID": "LC0019",
+   "Area": "Extension Lifecycle",
+   "Message": "Extension failed to un-publish: {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId})"
+ },
+ {
+   "Event ID": "LC0020",
+   "Area": "Extension Lifecycle",
+   "Message": "Extension compiled successfully: {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId})"
+ },
+ {
+   "Event ID": "LC0021",
+   "Area": "Extension Lifecycle",
+   "Message": "Extension failed to compile: {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId})"
+ },
+ {
+   "Event ID": "LC0022",
+   "Area": "Extension Lifecycle",
+   "Message": "Extension updated successfully: {extensionName} version {extensionVersion} by {extensionPublisher}"
+ },
+ {
+   "Event ID": "LC0023",
+   "Area": "Extension Lifecycle",
+   "Message": "Extension failed to update: {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId})"
+ },
+ {
+   "Event ID": "LC0024",
+   "Area": "Table Index Lifecycle",
+   "Message": "Index enabled: {tableName}"
+ },
+ {
+   "Event ID": "LC0025",
+   "Area": "Table Index Lifecycle",
+   "Message": "Index disabled: {tableName}"
+ },
+ {
+   "Event ID": "LC0026",
+   "Area": "Extension Lifecycle",
+   "Message": "Dependent Extension installed successfully: {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId})"
+ },
+ {
+   "Event ID": "LC0027",
+   "Area": "Extension Lifecycle",
+   "Message": "Dependent extension un-installed successfully: {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId})"
+ },
+ {
+   "Event ID": "RT0001",
+   "Area": "Authorization",
+   "Message": "Authorization Failed (Pre Open Company): {failure reason}"
+ },
+ {
+   "Event ID": "RT0002",
+   "Area": "Authorization",
+   "Message": "Authorization Failed (Open Company): {failure reason}"
+ },
+ {
+   "Event ID": "RT0003",
+   "Area": "Authorization",
+   "Message": "Authorization Succeeded (Pre Open Company)"
+ },
+ {
+   "Event ID": "RT0004",
+   "Area": "Authorization",
+   "Message": "Authorization Succeeded (Open Company)"
+ },
+ {
+   "Event ID": "RT0005",
+   "Area": "Performance",
+   "Message": "Operation exceeded time threshold (SQL query)"
+ },
+ {
+   "Event ID": "RT0006",
+   "Area": "Report generation",
+   "Message": "Success report generation"
+ },
+ {
+   "Event ID": "RT0006",
+   "Area": "Report generation",
+   "Message": "Report rendering failed: {report ID} - {report name}"
+ },
+ {
+   "Event ID": "RT0007",
+   "Area": "Report generation",
+   "Message": "Cancellation report generation"
+ },
+ {
+   "Event ID": "RT0008",
+   "Area": "Incoming Web service requests",
+   "Message": "Web service called ({category of request}): {endpoint}"
+ },
+ {
+   "Event ID": "RT0010",
+   "Area": "Extension lifecycle",
+   "Message": "Extension Update Failed: exception raised in extension {extensionName} by {extensionPublisher} (updating to version {extensionTargetedVersion})"
+ },
+ {
+   "Event ID": "RT0011",
+   "Area": "Report generation",
+   "Message": "Report cancelled but a commit occurred"
+ },
+ {
+   "Event ID": "RT0012",
+   "Area": "Performance",
+   "Message": "Database lock timed out"
+ },
+ {
+   "Event ID": "RT0013",
+   "Area": "Performance",
+   "Message": "Database lock snapshot: {snapshotId}"
+ },
+ {
+   "Event ID": "RT0014",
+   "Area": "Security",
+   "Message": "App Key Vault initialization succeeded: '{keyVaultUri}'"
+ },
+ {
+   "Event ID": "RT0015",
+   "Area": "Security",
+   "Message": "App Key Vault initialization failed"
+ },
+ {
+   "Event ID": "RT0016",
+   "Area": "Security",
+   "Message": "App Key Vault secret retrieval succeeded from key vault '{keyVaultUri}'"
+ },
+ {
+   "Event ID": "RT0017",
+   "Area": "Security",
+   "Message": "App Key Vault secret retrieval failed from key vault: '{keyVaultUri}'"
+ },
+ {
+   "Event ID": "RT0018",
+   "Area": "Performance",
+   "Message": "Operation exceeded time threshold (AL method)"
+ },
+ {
+   "Event ID": "RT0019",
+   "Area": "Outgoing Web service requests",
+   "Message": "Web Service Called (Outgoing): {endpoint}"
+ },
+ {
+   "Event ID": "RT0020",
+   "Area": "Web service key request",
+   "Message": "Authentication with Web Service Key succeeded: {endpoint}"
+ },
+ {
+   "Event ID": "RT0021",
+   "Area": "Web service key request",
+   "Message": "Authentication with Web Service Key failed: {endpoint}"
+ }
+]
